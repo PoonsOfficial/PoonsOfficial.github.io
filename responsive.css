@@ -1,0 +1,106 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+
+	.logo {
+	  margin-bottom: 20px;
+	}
+	.home-title {
+	  margin-bottom: 20px;
+	}
+	.home-title h1 {
+	    font-size: 28px;
+  		line-height: 40px;
+	}
+	.home-title p {
+	  margin-bottom: 10px;
+	  font-size: 13px;
+	  line-height: 22px;
+	}
+
+	/*countdown-wrapper*/
+	#countdown li {
+	  margin-right: 6px;
+	}
+	#countdown li span {
+	  font-size: 20px;
+	  font-weight: 900;
+	}
+
+	/*contact-page*/
+	#contactForm .btn {
+	  min-width: 260px;
+	}
+
+	.tt-modal-content {
+		width: 90%;
+	}
+
+
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+
+	.logo {
+	  margin-bottom: 60px;
+	}
+	.home-title h1 {
+	  font-size: 46px;
+	  line-height: 54px;
+	}
+	.home-title p {
+	  margin-bottom: 28px;
+	  font-size: 14px;
+	  line-height: 28px;
+	}
+
+	/*countdown-wrapper*/
+	#countdown li {
+	  margin-right: 40px;
+	}
+	#countdown li span {
+	  font-size: 40px;
+	  font-weight: 900;
+	}
+
+
+	.tt-modal-content {
+	  width: 60%;
+	}
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+	.tt-modal-content {
+	  width: 60%;
+	}
+
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+
+
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1280px) {
+
+
+}
+
+
+/* Large devices (large desktops, 1920px and up) */
+@media (min-width : 1920px) {
+
+
+}
