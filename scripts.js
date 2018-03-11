@@ -1,5 +1,5 @@
 
-		var fromDate = new Date(2018, 24, 6); 
+		var fromDate = new Date(2018, 1, 1);
 				timer = setInterval(function() {
 					//fromDate.setSeconds(fromDate.getSeconds() );
 				  setDates('countdown',  fromDate);
