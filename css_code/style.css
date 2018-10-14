@@ -227,7 +227,7 @@ ul {
 
 /* =-=-=-=-=-=-= home-section =-=-=-=-=-=-= */
 .home-section {
-    background: url(lore.jpg)/*tpa=http://perfectweb.su/assets/images/slider/ipad.jpg*/ #333 center center;
+    background: url(assets\lore.jpg) #333 center center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -598,7 +598,7 @@ contact-section
 
 /* =-=-=-=-=-=-= Preloader =-=-=-=-=-=-= */
 #preloader {
-    background: #FFF;
+    background: #f7f7f7;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -609,7 +609,7 @@ contact-section
 
 #status,
 .status-mes {
-    background-image: url(preloder.gif)/*tpa=http://perfectweb.su/assets/images/preloder.gif*/;
+    background-image: url(assets\\loader.gif);
     background-position: center;
     background-repeat: no-repeat;
     font-size: 17px;
